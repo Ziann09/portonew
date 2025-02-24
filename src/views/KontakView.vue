@@ -1,11 +1,11 @@
 <template>
-  <section id="kontak" class="kontak pb-20 bg-tersier">
+  <section id="kontak" class="kontak pb-20 bg-tersier font-poppins">
     <div class="flex flex-wrap bg-gradient-to-b from-primary pt-36 w-full">
       <div class="w-full self-center pl-[20px] lg:pl-[50px] lg:w-1/2">
         <h1 class="text-base text-primary font-semibold md:text-xl">
           Hello Guys, Saya
           <span class="block text-dark font-bold text-4xl mt-1 lg:text-5xl">
-            Ilham Kurniawan
+            Eziansyah
           </span>
         </h1>
         <h2 class="font-medium text-primary text-lg mt-5 lg:text-2xl">
@@ -36,12 +36,12 @@
               />
             </a>
             <a
-              href=" https://https://facebook.com/profile.php?100024996105516" target="_blank"
+              href=" https://" target="_blank"
               class="py-[3px] px-[3px] m-1 justify-self-center"
             >
               <img
-                src="/sosmed/Facebook.svg.png"
-                alt="Facebook"
+                src="/sosmed/tiktok.png"
+                alt="tiktok"
                 class="w-[70px] h-auto self-center justify-center hover:scale-110 hover:-translate-y-2 ease in duration-300"
               />
             </a>
@@ -58,34 +58,12 @@
               />
             </a>
             <a
-              href=" https://instagram.com/ilhamkrnwan__" target="_blank"
+              href=" https://instagram.com/eziansyahrifk" target="_blank"
               class="py-[3px] px-[3px] m-1 justify-self-center"
             >
               <img
                 src="/sosmed/Instagram.svg.png"
                 alt="Instagram"
-                class="w-[70px] h-auto self-center justify-center hover:scale-110 hover:-translate-y-2 ease in duration-300"
-              />
-            </a>
-          </div>
-          <div class="self-between lg:self-center mx-5 md:mx-[30px]">
-            <a
-              href="https://www.youtube.com/channel/UC0KDd6bsXi3Pk6LReOOG5Xw" target="_blank"
-              class="py-[3px] px-[3px] m-1 justify-self-center"
-            >
-              <img
-                src="/sosmed/YouTube.svg.png"
-                alt="youtube"
-                class="w-[70px] h-auto self-center justify-center hover:scale-110 hover:-translate-y-2 ease in duration-300"
-              />
-            </a>
-            <a
-              href=" https://" target="_blank"
-              class="py-[3px] px-[3px] m-1 justify-self-center"
-            >
-              <img
-                src="/sosmed/tiktok.png"
-                alt="tiktok"
                 class="w-[70px] h-auto self-center justify-center hover:scale-110 hover:-translate-y-2 ease in duration-300"
               />
             </a>
@@ -111,10 +89,9 @@ export default {
       typeValue: "",
       typeStatus: false,
       typeArray: [
-        "FullStack Developer",
-        "Grafis Desainer",
-        "Freelancer",
-        "Pemain Mobile Legends",
+        "UI/UX Designer",
+        "Quality Assurance",
+        "Front - End",
       ],
       typingSpeed: 200,
       erasingSpeed: 100,
@@ -166,6 +143,16 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
 .cursor {
   animation: cursorBlink 1s infinite;
 }

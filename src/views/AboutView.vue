@@ -1,13 +1,13 @@
 <template>
   <!-- start section -->
-  <section class="pb-20 pt-36 bg-tersier font-mono">
+  <section class="pb-20 pt-36 bg-tersier font-poppins">
     <div class="w-full relative mt-2">
-      <h3 class="text-4xl text-primary text-center">Ilham Kurniawan</h3>
+      <h3 class="text-4xl text-primary text-center">Eziansyah Rifki Abdillah</h3>
     </div>
   </section>
   <!-- end section -->
   <!-- start section -->
-  <section class="font-mono">
+  <section class="font-poppins">
     <div class="flex flex-wrap">
       <div class="w-full px-4 lg:w-1/2">
         <div class="mt-10">
@@ -16,11 +16,11 @@
       </div>
       <div class="w-full px-6 lg:w-1/2 grid">
         <div class="mt-4 text-2xl text-primary ml-3 underline-offset-4 underline">
-          <h2>Fullstack Web Developer</h2>
+          <h2>UI/UX Designer</h2>
         </div>
         <p class="mt-2">
-          Halo, nama saya <strong>Ilham Kurniawan</strong>, seorang junior
-          fullstack web developer yang sedang bersemangat memulai karir di dunia
+          Halo, nama saya <strong>Eziansyah Rifki Abdillah</strong>, seorang junior
+          ui/ux designer web developer yang sedang bersemangat memulai karir di dunia
           pengembangan web. Saya percaya bahwa web development adalah medan yang
           menarik dan terus berkembang, dan saya sangat antusias untuk menjadi
           bagian dari komunitas ini.
@@ -31,11 +31,11 @@
               Meskipun saya masih di awal karir saya, saya telah menunjukkan
               minat yang kuat dalam dunia teknologi dan telah meluangkan waktu
               untuk memperoleh pengetahuan dan keterampilan yang diperlukan
-              untuk menjadi seorang fullstack web developer. Saya memiliki
-              pemahaman yang baik tentang HTML, CSS, dan JavaScript sebagai
+              untuk menjadi seorang UI/UX Designer dan Front - End web developer. Saya memiliki
+              pemahaman yang baik tentang HTML, CSS, dan Figma sebagai
               fondasi utama dalam pengembangan web. Selain itu, saya juga
               memiliki pengetahuan tentang kerangka kerja seperti Vue.js dan
-              Node.js.
+              Django.
             </p>
             <p class="mt-2">
               Saya sangat berharap untuk mendapatkan kesempatan untuk belajar
@@ -65,24 +65,21 @@
   </section>
   <!-- end section -->
   <!-- start section -->
-  <section class="font-mono">
+  <section class="font-poppins">
     <div class="flex flex-wrap justify-center mx-4 mt-5 rounded-3xl py-6">
       <div class="w-full relative px-3">
-        <h2 class="font-mono text-slate-600 text-center text-3xl lg:text-2xl">
+        <h2 class="font-poppins text-slate-600 text-center text-3xl lg:text-2xl">
           Tech Stack
         </h2>
         <div class="flex flex-wrap justify-center mt-6 container px-3 lg:w-600px">
               <img src="/tech/html.png" alt="" class="w-[70px] mx-3 my-2" />
               <img src="/tech/css.png" alt="" class="w-[70px] mx-3 my-2" />
-              <img src="/tech/js.png" alt="" class="w-[70px] mx-3 my-2" />
-              <img src="/tech/sass.png" alt="" class="w-[70px] mx-3 my-2" />
-              <img src="/tech/tailwind.png" alt="" class="w-[70px] mx-3 my-2" />
               <img src="/tech/vue.png" alt="" class="w-[70px] mx-3 my-2" />
               <img src="/tech/php.png" alt="" class="h-[50px] mx-3 my-2" />
               <img src="/tech/sql.png" alt="" class="h-[50px] mx-3 my-2" />
               <img src="/tech/laravel.png" alt="" class="h-[50px] mx-3 my-2" />
               <img src="/tech/node.png" alt="" class="h-[50px] mx-3 my-2" />
-              <img src="/tech/git.png" alt="" class="w-[150px] mx-3 my-2" />
+              <img src="/tech/django.png" alt="" class="w-[150px] mx-3 my-2" />
         </div>
       </div>
 
@@ -91,7 +88,7 @@
   </section>
   <!-- end section -->
   <!-- start section -->
-  <section class="font-mono">
+  <section class="font-poppins">
     <div class="flex flex-wrap">
       <div class="w-full px-6 lg:w-1/2 grid">
         <div class="mt-4 text-2xl text-primary ml-6 underline-offset-4 underline">
@@ -106,38 +103,28 @@
               <ul class="list-decimal mx-6">
                 <li>
                   <h3 class="text-xl text-primary opacity-90">
-                    SMAN 1 RANDUBLATUNG (MIPA)
+                    SDS Nugraha
                   </h3>
-                  <p class="italic text-base text-primary opacity-80">2017 - 2020</p>
+                  <p class="italic text-base text-primary opacity-80">2022 - 2025</p>
                 </li>
               </ul>
-            </li>
-            <li>
-              <h2 class="mt-4 text-2xl text-primary ml-6 font-bold">
-                Non Formal
-              </h2>
               <ul class="list-decimal mx-6">
                 <li>
                   <h3 class="text-xl text-primary opacity-90">
-                    RGI Al- Azhar Jawa Timur (Surabaya)
+                    SIK Al - Fatwa
                   </h3>
-                  <p class="italic text-base text-primary opacity-80">2021</p>
-                  <p class="text-base text-primary opacity-80">
-                    - Pelatihan RPL / Web Developer
-                  </p>
+                  <p class="italic text-base text-primary opacity-80">2022 - 2025</p>
                 </li>
+              </ul>
+              <ul class="list-decimal mx-6">
                 <li>
                   <h3 class="text-xl text-primary opacity-90">
-                    Pelatihan DINPERINAKER (Blora)
+                    SMKN 4 Bandung (RPL)
                   </h3>
-                  <p class="italic text-base text-primary opacity-80">2022</p>
-                  <p class="text-base text-primary opacity-80">
-                    - Pelatihan Desain Grafis 
-                  </p>
+                  <p class="italic text-base text-primary opacity-80">2022 - 2025</p>
                 </li>
               </ul>
             </li>
-
           </ul>
         </div>
       </div>
@@ -160,6 +147,9 @@ const TampilkanLebihBanyak = ref(true);
 </script>
 
 <style>
+/* Import Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 /* we will explain what these classes do next! */
 .v-enter-active,
 .v-leave-active {
@@ -173,5 +163,10 @@ const TampilkanLebihBanyak = ref(true);
 
 .custom {
   background-image: url(/ilustrasi/bg-nature.jpg);
+}
+
+/* Add Poppins as default font */
+:root {
+  font-family: 'Poppins', sans-serif;
 }
 </style>

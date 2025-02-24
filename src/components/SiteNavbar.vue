@@ -8,7 +8,7 @@
                         <router-link :to="{ name: 'home' }">
                             <h3
                                 class="font-bold text-lg text-primary block py-6 group-hover:-translate-y-2 transition-all ease-in-out duration-300">
-                                Ilham Kurniawan</h3>
+                                Eziansyah Rifki Abdillah</h3>
                         </router-link>
                     </div>
                     <div class="flex items-center px-4">

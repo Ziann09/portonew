@@ -1,4 +1,3 @@
-
 <template>
     <footer>
         <div class="container mt-10 px-4 lg:px-20">
@@ -32,7 +31,7 @@
                                 <span class="mx-2">
                                     <i class="fa-solid fa-envelope"></i>
                                 </span>
-                                ilhamkurniawanjateng@gmail.com
+                                eziansyahrifkiabdillah@gmail.com
                             </p>
                             <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-primary"></span>
                         </li>
@@ -47,7 +46,7 @@
                                 <span class="text-green-700 opacity-90">
                                     +62
                                 </span>
-                                821 3985 9517
+                                889 7104 6377
                             </p>
                             <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-primary"></span>
                         </li>
@@ -62,7 +61,7 @@
                                 <span class="text-green-700 opacity-90">
                                     +62
                                 </span>
-                                877 3437 8825
+                                889 7104 6377
                             </p>
                             <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-primary"></span>
                         </li>
@@ -75,7 +74,7 @@
                                 <span class="mx-2">
                                     <i class="fa-solid fa-location-dot"></i>
                                 </span>
-                                Kedungtuban, Blora, Jawa Tengah, Indonesia
+                                Astanaanyar, Bandung, Jawa Bandung, Indonesia
                             </p>
                             <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-primary"></span>
                         </li>
@@ -84,7 +83,7 @@
             </div>
             <div class="w-full relative pt-3 pb-20 mt-20 border-transparent border-2 border-y-secondary px-3 ">
                 <h3 class="text-sm text-primary font-mono text-center">
-                    Copyright © {{ new Date().getFullYear() }} Ilham Kurniawan | K A I R A V. All Right Reserved
+                    Copyright © {{ new Date().getFullYear() }} Eziansyah Rifki Abdillah | K A I R A V. All Right Reserved
                 </h3>
                
             </div>
