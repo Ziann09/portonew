@@ -16,7 +16,7 @@
   <section class="bg-fixed bg-center bg-cover custom py-6">
     <div class="grid grid-cols-3 gap-4 mx-2">
       <div class="grid-fun group">
-        <img src="project1.png" alt="img" class="group-hover:brightness-50 ease-in duration-300" />
+        <img src="/project1.png" alt="Project Image" />
         <span
           class="absolute font-mono z-100 text-center opacity-0 text-white group-hover:opacity-80 ease-in"
         >
@@ -25,7 +25,7 @@
         </span>
       </div>
       <div class="grid-fun group">
-        <img src="project2.png" alt="img" class="group-hover:brightness-50 ease-in duration-300" />
+        <img src="/project2.png" alt="Project Image" />
         <span
           class="absolute font-mono z-100 text-center opacity-0 text-white group-hover:opacity-80 ease-in"
         >
@@ -34,7 +34,7 @@
         </span>
       </div>
       <div class="grid-fun group">
-        <img src="project3.png" alt="img" class="group-hover:brightness-50 ease-in duration-300" />
+        <img src="/project3.png" alt="Project Image" />
         <span
           class="absolute font-mono z-100 text-center opacity-0 text-white group-hover:opacity-80 ease-in"
         >
@@ -43,7 +43,7 @@
         </span>
       </div>
       <div class="col-span-2 grid-fun group">
-        <img src="project4.png" alt="img" class="group-hover:brightness-50 ease-in duration-300" />
+        <img src="/project4.png" alt="Project Image" />
         <span
           class="absolute font-mono z-100 text-center opacity-0 text-white group-hover:opacity-80 ease-in"
         >
@@ -52,7 +52,7 @@
         </span>
       </div>
       <div class="grid-fun group">
-        <img src="project5.png" alt="img" class="group-hover:brightness-50 ease-in duration-300" />
+        <img src="/project5.png" alt="Project Image" />
         <span
           class="absolute font-mono z-100 text-center opacity-0 text-white group-hover:opacity-80 ease-in"
         >
