@@ -70,15 +70,21 @@
                 <span class="text-base lg:text-2xl text-black font-bold mx-4 opacity-70 float-right group-hover:rotate-45 group-hover:text-green-500 ease-in duration-200">
                     <i class="fa fa-paper-plane" aria-hidden="true"></i>
                 </span>
-                <span class="absolute bottom-2 right-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-green-300 font-medium text-base lg:text-lg">Hampir Keseluruhan saya sudah paham, tapi masih perlu di perdalam</span>
+                <span class="absolute bottom-2 right-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-green-300 font-medium text-xs lg:text-sm max-w-[700px] text-right">
+                    Saya dapat menggunakan Figma untuk membuat prototipe interaktif serta mendesain UI dan UX untuk web dan aplikasi. 
+                    Saya juga mampu menerapkan berbagai elemen desain dengan fitur seperti artboard, komponen, dan auto-layout untuk hasil yang profesional.
+                </span>
             </div>
+            
             <div class="w-full mx-10 border-b-2 border-dark py-6 px-4 group cursor-pointer hover:border-green-500 relative" onclick="openModal('modal2')">
                 02
                 <span class="text-base lg:text-2xl text-black font-bold mx-10 opacity-70">HTML</span>
                 <span class="text-base lg:text-2xl text-black font-bold mx-4 opacity-70 float-right group-hover:rotate-45 group-hover:text-green-500 ease-in duration-200">
                     <i class="fa fa-paper-plane" aria-hidden="true"></i>
                 </span>
-                <span class="absolute bottom-2 right-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-green-300 font-medium text-base lg:text-lg">Keseluruhan paham</span>
+                <span class="absolute bottom-2 right-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-green-300 font-medium text-xs lg:text-sm max-w-[750px] text-right">
+                    Saya dapat membuat tampilan web dengan HTML, menyusun struktur halaman menggunakan &lt;html&gt;, &lt;head&gt;, dan &lt;body&gt;, menampilkan teks, gambar, tautan, tabel, serta formulir. Selain itu, saya dapat mengatur layout dengan &lt;div&gt; dan &lt;span&gt; untuk desain yang lebih fleksibel dan terstruktur.
+                </span>                
             </div>
             <div class="w-full mx-10 border-b-2 border-dark py-6 px-4 group cursor-pointer hover:border-green-500 relative" onclick="openModal('modal3')">
                 03
@@ -86,7 +92,8 @@
                 <span class="text-base lg:text-2xl text-black font-bold mx-4 opacity-70 float-right group-hover:rotate-45 group-hover:text-green-500 ease-in duration-200">
                     <i class="fa fa-paper-plane" aria-hidden="true"></i>
                 </span>
-                <span class="absolute bottom-2 right-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-green-300 font-medium text-base lg:text-lg">Keseluruhan paham</span>
+                <span class="absolute bottom-2 right-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-green-300 font-medium text-xs lg:text-sm max-w-[700px] text-right">
+                    Saya dapat mendesain halaman web dengan CSS, mengatur warna, font, dan layout menggunakan `color`, `font-family`, `display`, serta membuat tata letak responsif dengan `flexbox` dan `grid`. Saya juga bisa menambahkan efek transisi, animasi, dan hover untuk interaktivitas.</span>
             </div>
             <div class="w-full mx-10 border-b-2 border-dark py-6 px-4 group cursor-pointer hover:border-green-500 relative" onclick="openModal('modal4')">
                 04
@@ -94,7 +101,8 @@
                 <span class="text-base lg:text-2xl text-black font-bold mx-4 opacity-70 float-right group-hover:rotate-45 group-hover:text-green-500 ease-in duration-200">
                     <i class="fa fa-paper-plane" aria-hidden="true"></i>
                 </span>
-                <span class="absolute bottom-2 right-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-green-300 font-medium text-base lg:text-lg">Mengetahui sampe Front-End</span>
+                <span class="absolute bottom-2 right-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-green-300 font-medium text-xs lg:text-sm max-w-[800px] text-right">
+                    Saya dapat membangun tampilan web interaktif dengan Vue.js, menggunakan komponen untuk struktur UI, mengelola binding data dengan v-model, serta mengatur tampilan dinamis dengan v-if, v-for, dan class binding. Saya juga bisa menerapkan animasi, transition, serta membuat desain responsif dengan Vue.</span>
             </div>
             <div class="w-full mx-10 border-b-2 border-dark py-6 px-4 group cursor-pointer hover:border-green-500 relative" onclick="openModal('modal5')">
                 05
@@ -102,7 +110,8 @@
                 <span class="text-base lg:text-2xl text-black font-bold mx-4 opacity-70 float-right group-hover:rotate-45 group-hover:text-green-500 ease-in duration-200">
                     <i class="fa fa-paper-plane" aria-hidden="true"></i>
                 </span>
-                <span class="absolute bottom-2 right-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-green-300 font-medium text-base lg:text-lg">Mengetahui sampe Front-End</span>
+                <span class="absolute bottom-2 right-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-green-300 font-medium text-xs lg:text-sm max-w-[750px] text-right">
+                    Saya dapat membangun web dengan Django, mulai dari membuat tampilan dengan Django Templates hingga menyambungkan API menggunakan Django REST Framework. Saya bisa mengelola data dengan model, views, dan serializers, serta menampilkan data API di frontend menggunakan fetch atau Axios.</span>
             </div>
             </div>
             </section>

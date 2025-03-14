@@ -20,7 +20,7 @@
                         </button>
                         <transition name="slide-fade">
                             <nav v-show="isActive" id="nav-menu"
-                                class="font-mono absolute py-5 bg-white shadow-lg rounded-lg w-full right-[1px] top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                                class="absolute py-5 bg-white shadow-lg rounded-lg w-full right-[1px] top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
                                 <ul class="block lg:flex text-center">
                                     <li class="group ">
                                         <router-link :to="{ name: 'home' }">
@@ -42,7 +42,7 @@
                                     </li>
                                     <li class="group">
                                         <router-link :to="{ name: 'fun' }">
-                                            <p class="text-base text-dark py-2 mx-8 group-hover:text-primary">Fun Project
+                                            <p class="text-base text-dark py-2 mx-8 group-hover:text-primary">Project
                                                 <span
                                                     class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-primary"></span>
                                             </p>
@@ -74,6 +74,13 @@ const isActive = ref(true);
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Apply Poppins to all elements */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* styling route link aktif */
 a .route-link-active p span {
     max-width: full;
@@ -92,4 +99,22 @@ a .route-link-active p span {
 .slide-fade-leave-to {
     transform: translateX(20px);
     opacity: 0;
-}</style>
+}
+
+/* Hamburger menu styling (if needed) */
+.hamburger-line {
+    @apply w-[30px] h-[2px] my-2 block bg-dark;
+}
+
+.hamburgeractive > span:nth-child(1) {
+    @apply rotate-45;
+}
+
+.hamburgeractive > span:nth-child(2) {
+    @apply scale-0;
+}
+
+.hamburgeractive > span:nth-child(3) {
+    @apply -rotate-45;
+}
+</style>
