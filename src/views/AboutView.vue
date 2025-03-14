@@ -11,11 +11,7 @@
     <div class="flex flex-wrap">
       <div class="w-full px-4 md:px-4 lg:w-1/2">
         <div class="mt-6 md:mt-10 flex justify-center md:justify-start">
-          <img 
-            src="self.jpg" 
-            alt="coding illustration" 
-            class="profile-image bg-transparent w-3/4 md:w-auto"
-          >
+          <img src="/self.jpg" alt="Self">
         </div>
       </div>
       <div class="w-full px-4 md:px-6 lg:w-1/2 grid mt-6 md:mt-0">
