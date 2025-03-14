@@ -72,7 +72,7 @@
                 </span>
                 <span class="absolute bottom-2 right-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-green-300 font-medium text-xs lg:text-sm max-w-[700px] text-right">
                     Saya dapat menggunakan Figma untuk membuat prototipe interaktif serta mendesain UI dan UX untuk web dan aplikasi. 
-                    Saya juga mampu menerapkan berbagai elemen desain dengan fitur seperti artboard, komponen, dan auto-layout untuk hasil yang profesional.
+                    Saya juga mampu menerapkan berbagai elemen desain dengan fitur seperti dashboard, komponen, dan auto-layout untuk hasil yang profesional.
                 </span>
             </div>
             
